@@ -31,3 +31,11 @@
         text-align: center !important;
     }
 }
+.test h3{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+}
+.test p{
+    padding: 10px 10px;
+}
