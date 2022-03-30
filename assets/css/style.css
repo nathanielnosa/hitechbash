@@ -39,3 +39,57 @@
 .test p{
     padding: 0px 10px;
 }
+
+/* Banner */
+.background{
+    background: url(/assets/img/pexels-frans-van-heerden-624015.jpg);
+    height: 80vh;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding:0;
+}
+
+.dark-bg{
+    z-index: 1;
+    opacity: .5;
+    background: #000000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+}
+
+/* welcome */
+.welcome {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 8rem 0px;
+    left: 0;
+}
+.welcome h1{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.welcome p{
+    font-size: 1.8rem;
+}
+
+/* Button */
+.btn{
+    background: transparent;
+    border: 3px solid goldenrod;
+    border-radius: 30px;
+    padding: .7rem 4rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.btn:hover{
+    background:goldenrod;
+    color: white;
+}
