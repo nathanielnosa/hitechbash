@@ -31,6 +31,28 @@
         text-align: center !important;
     }
 }
+.test #about .abouttitle{
+    text-align: center;
+    font-size: 20px;
+}
+.test #about .row{
+    display: flex;
+    padding: 20px;
+}
+.test #about .row img{
+    width: 500px;
+    height: 300px;
+}
+.test #about .row #aboutt .lead{
+    padding-left: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.test #about .row #aboutt{
+    padding-left: 20px;
+    text-align: center;
+}
 .test h3{
     text-transform: capitalize;
     text-align: center;
