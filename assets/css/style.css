@@ -1,0 +1,33 @@
+:root{
+    --primary-color: #00001d;
+    --text-color: #f1ecec;
+    --bg-color: #f1ecec;
+    --shadow: 0px 5px 3px #16053d;
+}
+
+#topbar{
+    background: var(--primary-color);
+    padding: 1rem 0rem;
+    color: white;
+    font-size: 1rem;
+}
+#topbar .link a{
+    color: var(--text-color);
+    text-decoration: none;
+    padding: .9rem .8rem;
+}
+#topbar .link a:hover{
+    background: var(--bg-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+    text-shadow: var(--shadow);
+}
+
+@media(max-width:768px){
+    #topbar{
+        text-align: center;
+    }
+    #topbar .link{
+        text-align: center !important;
+    }
+}
