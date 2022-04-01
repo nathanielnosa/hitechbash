@@ -115,3 +115,44 @@
     background:goldenrod;
     color: white;
 }
+
+/* row styling adeoye */
+
+.materials{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 2rem;
+    background-color: #dbd6d6 !important;
+}
+.materials h2{
+    padding: 1rem;
+    margin-top: 1rem;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+}
+.materials .card{
+    height: 45vh; 
+    width: 30%;
+    padding: .5rem;
+    margin: 2rem .8rem;
+    border: 5px solid grey;
+    text-transform: capitalize;
+    font-size: medium;
+    text-align: center;
+}
+.materials .card h3{
+    text-decoration: underline;
+    font-weight: 700;
+
+}
+.materials .card p{
+    margin-top: 2rem;
+    color: grey;
+    font-size: large;
+
+}
+
+
+
